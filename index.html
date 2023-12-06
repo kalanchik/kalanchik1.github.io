@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		plants
+	</title>
+
+</head>
+
+<body>
+
+
+	<form action=" " id="form">
+
+		<div class="form-control">
+			<label for="name">registration</label>
+			<input type="text" id="name" name="name" placeholder="enter your name" />
+		</div>
+
+		<div class="form-control">
+			<input type="email" id="email" name="email" placeholder="enter your email" />
+		</div>
+
+		<div class="form-control">
+			<input type="tel" id="telephone" name="telephone" placeholder="enter your number" />
+		</div>
+
+		<div class="form-control">
+			<label for="date">enter date of birth</label>
+			<input type="date" id="date" name="date" min="1900-01-01" max="2023-12-08">
+		</div>
+
+		<div class="form-control">
+			<label for="password">create password</label>
+			<input type="password" id="password" name="password" placeholder="********" />
+		</div>
+
+
+		<div class="form-control">
+			<label for="numbers">how many plants do you want to buy?:</label>
+			<input type="number" id="numbers" name="numbers" value="0" />
+		</div>
+
+		<div class="form-control">
+			<label for="answer1">
+				do you need help with the compositions?
+			</label>
+
+			<label for="answer1">
+				<input type="radio" id="answer1" name="answer" value="Yes">Yes</input>
+			</label>
+			<label for="answer2">
+				<input type="radio" id="answer2" name="answer" value="No">No</input>
+		</div>
+
+		<div class="form-control">
+			<label for="room1">select the rooms to be landscaped
+			</label>
+			<label for="room1">
+				<input type="checkbox" id="room1" name="room">kitchen</input></label>
+			<label for="room2">
+				<input type="checkbox" id="room2" name="room">bathroom</input></label>
+			<label for="room3">
+				<input type="checkbox" id="room3" name="room">living room</input></label>
+			<label for="room4">
+				<input type="checkbox" id="room4" name="room">bedroom</input></label>
+			<label for="room5">
+				<input type="checkbox" id="room5" name="room">dining room</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="light">brighteness in rooms</label>
+			<input type="range" id="light" name="light" min="0" max="50">
+		</div>
+
+
+		<div class="end">
+			<input type="reset" value="reset"> <input type="submit" value="send"></input>
+		</div>
+
+		<div id="output"></div>
+
+
+	</form>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
